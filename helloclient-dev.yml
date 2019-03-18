@@ -1,0 +1,7 @@
+name: fengke
+age: 30
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:11111/eureka/
