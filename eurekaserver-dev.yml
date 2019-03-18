@@ -1,23 +1,2 @@
-spring:
-  application:
-    name: eureka-peer
-
-server:
-  port: 11111
-
-eureka:
-  instance:
-    hostname: dev
-    instance-id: dev
-
-  client:
-    fetch-registry: false
-    registry-with-eureka: false
-    service-url:
-      defaultZone: http://localhost:11111/eureka/
-  server:
-    wait-time-in-ms-when-sync-emty: 0
-    enable-self-preservation: true
-    peer-eureka-nodes-update-interval-ms: 10000
 
 
