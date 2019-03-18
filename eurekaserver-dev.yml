@@ -3,7 +3,7 @@ spring:
     name: eureka-peer
 
 server:
-  port: 10000
+  port: 11111
 
 eureka:
   instance:
