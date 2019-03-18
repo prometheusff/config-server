@@ -4,4 +4,4 @@ age: 30
 eureka:
   client:
     service-url:
-      defaultZone: http://127.0.0.1:11111/eureka/
+      defaultZone: http://localhost:11111/eureka/
